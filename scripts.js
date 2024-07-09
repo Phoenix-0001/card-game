@@ -55,7 +55,7 @@ function resetGame() {
     document.querySelector("#guesses").textContent = guess;
     document.querySelector("#win").textContent="";
     shuffle(cards);
-  }, 2000);
+  }, 3000);
 }
 
 cardEls.forEach(function (el, index) {
