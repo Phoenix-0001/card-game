@@ -61,7 +61,7 @@ function resetGame() {
 cardEls.forEach(function (el, index) {
   el.addEventListener("click", function () {
     if (index === firstGuess || cards[index].matched || !canGuess) {
-      alert("Invalid guess");
+      alert("Invalid guess / Wait until the card flips back");
       return;
     }
     var clickedCard = cards[index];
